@@ -2,6 +2,12 @@
 
 ## 1. 
 
+https://platform.openai.com/docs/overview
+
+https://platform.openai.com/docs/api-reference
+
+
+
 
 ## 2.
 
