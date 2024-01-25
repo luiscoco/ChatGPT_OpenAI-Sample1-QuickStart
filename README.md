@@ -222,6 +222,8 @@ This is a brief explanation about all the OpenAI models:
 
 **GPT-4** (and Variants): GPT-4 represents an advancement over GPT-3.5, with improvements in understanding context, generating more accurate and nuanced text, and possibly handling more complex instructions. Variants like "GPT-4-0613" and "GPT-4-1106-preview" might refer to specific updates or experimental versions designed for testing new capabilities.
 
+![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/ab274007-2ffd-40ce-8ead-919ecc766eef)
+
 **DALL·E Models**
 
 **DALL·E 2 and DALL·E 3**: These models specialize in generating images from textual descriptions. DALL·E 2 was a significant advancement in creating highly realistic and detailed images from text prompts. DALL·E 3, presumably, further enhances these capabilities, offering improvements in image quality, creativity, or the ability to understand more complex prompts.
