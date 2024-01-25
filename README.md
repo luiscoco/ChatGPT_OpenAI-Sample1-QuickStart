@@ -241,3 +241,105 @@ This is a brief explanation about all the OpenAI models:
 **Other Named Models**
 
 **Davinci-002, Babbage-002:** These names align with OpenAI's convention for different versions of their language models, with Davinci being the most capable and Babbage offering a balance between performance and computational efficiency. The "002" suffix likely indicates specific iterations within these model families.
+
+## 5. Samples with Postman
+
+### 5.1. Chat Completion (Conversational Responses)
+
+Endpoint: https://api.openai.com/v1/chat/completions
+
+Method: POST
+
+Headers:
+
+Authorization: Bearer YOUR_API_KEY
+
+Content-Type: application/json
+
+Body:
+
+```json
+{
+  "model": "gpt-4",
+  "messages": [
+    {"role": "user", "content": "What are the major differences between Python 2 and Python 3?"}
+  ]
+}
+```
+
+This request initiates a conversational exchange, suitable for building chatbots or interactive conversational agents.
+
+### 5.2. Text Completion (Generating Text)
+
+Endpoint: https://api.openai.com/v1/completions
+
+Method: POST
+
+Headers:
+
+Authorization: Bearer YOUR_API_KEY
+
+Content-Type: application/json
+
+Body:
+
+```json
+{
+  "model": "text-davinci-004",
+  "prompt": "Write a short story about a robot learning to paint:",
+  "temperature": 0.7,
+  "max_tokens": 150,
+  "top_p": 1,
+  "frequency_penalty": 0,
+  "presence_penalty": 0
+}
+```
+
+This request is for generating creative text, such as stories, based on a prompt. You can adjust parameters like temperature and max_tokens to control creativity and length.
+
+### 5.3. Editing (Improving Text)
+
+Endpoint: https://api.openai.com/v1/edits
+
+Method: POST
+
+Headers:
+
+Authorization: Bearer YOUR_API_KEY
+
+Content-Type: application/json
+
+Body:
+
+```json
+{
+  "model": "text-davinci-edit-001",
+  "input": "She no went to the market.",
+  "instruction": "Fix grammatical mistakes"
+}
+```
+
+This request is useful for refining or altering text based on specific instructions, such as correcting grammar or changing the style.
+
+### 5.4. Embeddings (Generating Textual Representations)
+
+Endpoint: https://api.openai.com/v1/embeddings
+
+Method: POST
+
+Headers:
+
+Authorization: Bearer YOUR_API_KEY
+
+Content-Type: application/json
+
+Body:
+
+```json
+{
+  "model": "text-similarity-davinci-001",
+  "input": ["Puppies are adorable.", "Kittens are cute."]
+}
+```
+
+This request generates embeddings for texts, which can be used for semantic text similarity, clustering, or search applications.
