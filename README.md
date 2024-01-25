@@ -1,2 +1,16 @@
-# ChatGPT_OpenAI-Sample1-QuickStart
-ChatGPT_OpenAI: QuickStart
+# ChatGPT_OpenAI: QuickStart
+
+## 1. 
+
+
+## 2.
+
+
+
+## 3. 
+
+
+
+## 4. 
+
+
