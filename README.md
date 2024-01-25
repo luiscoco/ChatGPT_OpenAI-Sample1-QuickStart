@@ -8,7 +8,7 @@ We press on the **Sign up** button
 
 ![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/b634a849-300f-4cc0-82b8-11a6e6135e50)
 
-We create a new account or if we already have one we log in to our account
+We **create a new account** or if we already have one we **log in** to our account
 
 ![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/193d0d27-0396-4fdf-8ba2-ed614d1b7f33)
 
