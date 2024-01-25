@@ -12,7 +12,7 @@ We create a new account or if we already have one we log in to our account
 
 ![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/193d0d27-0396-4fdf-8ba2-ed614d1b7f33)
 
-## 2. Set the account settings
+## 2. Account settings (set the payment method and spend limit)
 
 We select the **Settings->Billing** option in the left hand side menu
 
