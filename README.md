@@ -269,6 +269,36 @@ Body:
 
 This request initiates a conversational exchange, suitable for building chatbots or interactive conversational agents.
 
+![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/11640dbb-a321-4c50-adcf-3b583b35c849)
+
+This is the response we get
+
+```
+{
+    "id": "chatcmpl-8krkQwW9wHyOheGIOTQ8UTEUDfkQv",
+    "object": "chat.completion",
+    "created": 1706180386,
+    "model": "gpt-4-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "1. Print Function: In Python 2, \"print\" is considered as a statement and not as a function. So it can be used without parentheses. In Python 3, \"print\" is a function and not a statement, so it should be used with parentheses.\n\n2. Integer Division: In Python 2, the division of two integers results in an integer. While in Python 3, an integer division is treated like float division so that the approximation could be precise.\n\n3. Unicode: In Python 2, an ASCII string is defined like \"str\" and a Unicode string like \"u\". But in Python 3, a string is treated as unicode by default and a bytestring is defined as \"b\".\n\n4. Syntax: Python 3 syntax is simpler and easily understandable, whereas Python 2 syntax is complex.\n\n5. Range and xrange: In Python 2, a range() returns a list whereas xrange() returns an object that acts like an iterator for generating numbers on demand. But in Python 3, a range() does what xrange() does in Python 2, and xrange() does not exist.\n\n6. Exception Handling: In Python 3 exceptions need to be enclosed in parenthesis while Python 2 does not.\n\n7. Libraries: Python 3 has more, newer-built-in libraries than Python 2.\n\n8. Support and Development: Python 2 is a legacy and it is no longer under development and not supported as well, unlike Python 3, it is under active development. As of 2020, Python 2 is no longer supported.  \n\n9. Iteration: In Python 2, methods like dict.keys(), dict.items(), and dict.values() return lists. In Python 3, they return view objects.\n \n10. Order of operations of Dictionary: In Python 3, the order in which the keys are inserted in the dictionary is maintained whereas in Python 2, it does not remember the order of keys."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 21,
+        "completion_tokens": 401,
+        "total_tokens": 422
+    },
+    "system_fingerprint": null
+}
+```
+
 ### 5.2. Text Completion (Generating Text)
 
 Endpoint: https://api.openai.com/v1/completions
