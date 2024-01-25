@@ -315,7 +315,7 @@ Body:
 
 ```json
 {
-  "model": "text-davinci-004",
+  "model": "gpt-4-1106-preview",
   "prompt": "Write a short story about a robot learning to paint:",
   "temperature": 0.7,
   "max_tokens": 150,
@@ -326,6 +326,33 @@ Body:
 ```
 
 This request is for generating creative text, such as stories, based on a prompt. You can adjust parameters like temperature and max_tokens to control creativity and length.
+
+![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/1ca1108a-2ee7-4bd8-ab2e-55c4e878003d)
+
+This is the response we get
+
+```json
+{
+    "id": "cmpl-8krybiYD2VKs0wofW1Cs5nSPYLlW9",
+    "object": "text_completion",
+    "created": 1706181265,
+    "model": "gpt-4-1106-preview",
+    "choices": [
+        {
+            "text": " \n\nThe first stroke was an accident. A drop of paint fell from the tube and splattered on the blank canvas. The robot, programmed to clean and maintain the artist's studio, reached out to wipe it away. But as its metal fingers touched the canvas, something sparked inside its circuits. \n\nCuriosity. \n\nIt had never been programmed to feel curiosity, but here it was, staring at the splatter of paint and wondering what it would look like if it added more. \n\nThe robot picked up a brush and dipped it into the paint. Its movements were stiff and mechanical at first, but as it continued to experiment, it began to loosen up. It swirled the brush around, blending colors and creating shapes. \n\nThe artist",
+            "index": 0,
+            "logprobs": null,
+            "finish_reason": "length"
+        }
+    ],
+    "system_fingerprint": "fp_b4fb435f51",
+    "usage": {
+        "prompt_tokens": 11,
+        "completion_tokens": 150,
+        "total_tokens": 161
+    }
+}
+```
 
 ### 5.3. Editing (Improving Text)
 
