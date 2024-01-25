@@ -44,11 +44,16 @@ We have to create an API Key in order to authorize when we send the API request
 
 We copy and store the API Key value, we will need to introduce this value in the API header to authorize the service
 
+## 4. We navigate to the API Documentation
 
+We select the menu option Documentation or we navigate to this URL: **https://platform.openai.com/docs**
 
+Inside the Documentation we have two options: **Documentation** or **API Reference**
 
 https://platform.openai.com/docs/overview
 
 https://platform.openai.com/docs/api-reference
+
+
 
 
