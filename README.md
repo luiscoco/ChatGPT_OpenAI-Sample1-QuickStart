@@ -56,12 +56,15 @@ https://platform.openai.com/docs/api-reference
 
 We select the **API Reference** option and in the **ENDPOINTS** section we can see all the available OpenAI endpoints
 
-We can start retriving the model list
+We can start retriving the model list with this request: **GET https://api.openai.com/v1/models**
 
-![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/f0341608-46b3-461e-9854-e26fa8a2b783)
+![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/6a202d98-4273-4223-a31d-221e9df632e2)
 
-We are going to user Postman for sending the API request
+We are going to user **Postman** for sending the API request
 
+We run Postman and we enter in the **Bearer Token** the **OpenAI API Key**
+
+![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/429e6b92-d45d-4536-8bfa-9ca2f6c57e3f)
 
 
 
