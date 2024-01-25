@@ -26,6 +26,17 @@ https://platform.openai.com/account/billing/payment-methods
 
 ![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/ef9128b8-c110-4648-8e92-b36175b43df0)
 
+We input all the info required in the payment method form
+
+![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/98830a0f-0148-483f-acc9-51c35beb405b)
+
+We can set an initial ammout of 12 euros per month
+
+https://platform.openai.com/account/limits
+
+![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/d1418bb6-2e7a-41c9-a745-1b898fa90380)
+
+
 
 
 https://platform.openai.com/docs/overview
