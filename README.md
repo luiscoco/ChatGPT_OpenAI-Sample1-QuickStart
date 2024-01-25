@@ -16,9 +16,13 @@ We create a new account or if we already have one we log in to our account
 
 We select the **Settings->Billing** option in the left hand side menu
 
+https://platform.openai.com/account/billing/overview
+
 ![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/a7b275e9-14f9-4fb3-a1d1-b284bc3dae67)
 
 We have to enter the **Payment method**
+
+https://platform.openai.com/account/billing/payment-methods
 
 ![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/ef9128b8-c110-4648-8e92-b36175b43df0)
 
