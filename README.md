@@ -358,7 +358,7 @@ This is the response we get
 
 ### 5.3. Editing (Improving Text)
 
-Endpoint: https://api.openai.com/v1/edits
+Endpoint: https://api.openai.com/v1/chat/completions
 
 Method: POST
 
@@ -372,13 +372,51 @@ Body:
 
 ```json
 {
-  "model": "text-davinci-edit-001",
-  "input": "She no went to the market.",
-  "instruction": "Fix grammatical mistakes"
+  "model": "gpt-4", // Adjust based on the actual model name for ChatGPT-4
+  "messages": [
+    {
+      "role": "system",
+      "content": "You are an assistant trained to improve and edit text for clarity, conciseness, and formality."
+    },
+    {
+      "role": "user",
+      "content": "Please make this text more formal and concise: 'hey, can u help me fix this up? it's kinda all over the place and i wanna make it sound super professional. thanks a bunch!'"
+    }
+  ]
 }
 ```
 
 This request is useful for refining or altering text based on specific instructions, such as correcting grammar or changing the style.
+
+![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/eed4d8b0-ce7a-464b-b602-9e7e331e2fd6)
+
+This is the response I get
+
+```json
+{
+    "id": "chatcmpl-8ksKMyKNFDDnrvqLiseaggjuL7OT4",
+    "object": "chat.completion",
+    "created": 1706182614,
+    "model": "gpt-4-0613",
+    "choices": [
+        {
+            "index": 0,
+            "message": {
+                "role": "assistant",
+                "content": "Greetings, could you assist me in refining this text? It currently lacks structure and I aim to enhance its degree of professionalism. Thank you for your support."
+            },
+            "logprobs": null,
+            "finish_reason": "stop"
+        }
+    ],
+    "usage": {
+        "prompt_tokens": 72,
+        "completion_tokens": 31,
+        "total_tokens": 103
+    },
+    "system_fingerprint": null
+}
+```
 
 ### 5.4. Embeddings (Generating Textual Representations)
 
