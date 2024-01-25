@@ -44,7 +44,7 @@ We have to create an API Key in order to authorize when we send the API request
 
 We copy and store the API Key value, we will need to introduce this value in the API header to authorize the service
 
-## 4. We navigate to the API Documentation
+## 4. OpenAI endpoints
 
 We select the menu option Documentation or we navigate to this URL: **https://platform.openai.com/docs**
 
@@ -53,6 +53,15 @@ Inside the Documentation we have two options: **Documentation** or **API Referen
 https://platform.openai.com/docs/overview
 
 https://platform.openai.com/docs/api-reference
+
+We select the **API Reference** option and in the **ENDPOINTS** section we can see all the available OpenAI endpoints
+
+We can start retriving the model list
+
+![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/f0341608-46b3-461e-9854-e26fa8a2b783)
+
+We are going to user Postman for sending the API request
+
 
 
 
