@@ -372,7 +372,7 @@ Body:
 
 ```json
 {
-  "model": "gpt-4", // Adjust based on the actual model name for ChatGPT-4
+  "model": "gpt-4",
   "messages": [
     {
       "role": "system",
