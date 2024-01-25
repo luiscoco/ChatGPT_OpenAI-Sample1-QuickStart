@@ -417,26 +417,3 @@ This is the response I get
     "system_fingerprint": null
 }
 ```
-
-### 5.4. Embeddings (Generating Textual Representations)
-
-Endpoint: https://api.openai.com/v1/embeddings
-
-Method: POST
-
-Headers:
-
-Authorization: Bearer YOUR_API_KEY
-
-Content-Type: application/json
-
-Body:
-
-```json
-{
-  "model": "text-similarity-davinci-001",
-  "input": ["Puppies are adorable.", "Kittens are cute."]
-}
-```
-
-This request generates embeddings for texts, which can be used for semantic text similarity, clustering, or search applications.
