@@ -36,24 +36,19 @@ https://platform.openai.com/account/limits
 
 ![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/d1418bb6-2e7a-41c9-a745-1b898fa90380)
 
+## 3. Create API Key
+
+We have to create an API Key in order to authorize when we send the API request
+
+![image](https://github.com/luiscoco/ChatGPT_OpenAI-Sample1-QuickStart/assets/32194879/ac69918b-d490-4e67-8486-7f36a8a66a5b)
+
+We copy and store the API Key value, we will need to introduce this value in the API header to authorize the service
+
 
 
 
 https://platform.openai.com/docs/overview
 
 https://platform.openai.com/docs/api-reference
-
-
-
-
-## 2.
-
-
-
-## 3. 
-
-
-
-## 4. 
 
 
